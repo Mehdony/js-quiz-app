@@ -5,7 +5,7 @@ class Question {
         this.answer = answer;
     }
     isCorrectAnswer(choice) {
-        return this.answer === this.choice;
+        return this.answer === choice;
     }
 }
 let questions = [
@@ -52,7 +52,7 @@ const display = {
         let endQuizHTML = `
         <h1>Quiz terminé !</h1>
         <h3>Votre score est de : ${quiz.score} / ${quiz.questions.length}</h3>`;
-        this.elementShown("question", endQuizHTML);
+        this.elementShown("quiz", endQuizHTML);
     },
     question: function () {
         this.elementShown("question", quiz.getCurrentQuestion().text);
@@ -95,3 +95,4 @@ quizApp = () => {
 let quiz = new Quiz(questions);
 quizApp();
 console.log(quiz);
+
