@@ -12,13 +12,13 @@ let questions = [
     new Question("Hawaï appartient à quel pays ?", ["Cuba", "Mexique", "Usa", "Portugal"], "Usa"),
     new Question("Quel est le plus long fleuve de France ? ", ["Rhône", "Loire", "Garonne", "Rhin"], "Rhin"),
     new Question("Combien d'États y-a-t-il aux États-Unis ? ", ["49", "50", "51", "52"], "50"),
-    new Question("En quelle année a été signée la déclaration des droits de l'homme et du citoyen ? ", ["A partir de 1789", "A partir de 1885", "A partir de 1901", "A partir de 1968"], "(A partir de 1789)"),
-    new Question("Quel est le plus grand océan du monde ? ", ["L'océan Atlantique", "L'océan Pacifique", "L'océan Océanique", "L'océan Arctique"], "(L'océan Pacifique)"),
+    new Question("En quelle année a été signée la déclaration des droits de l'homme et du citoyen ? ", ["A partir de 1789", "A partir de 1885", "A partir de 1901", "A partir de 1968"], "A partir de 1789"),
+    new Question("Quel est le plus grand océan du monde ? ", ["L'océan Atlantique", "L'océan Pacifique", "L'océan Océanique", "L'océan Arctique"], "L'océan Pacifique"),
     new Question("Quand la Seconde Guerre mondiale a-t-elle pris fin ? ", ["En 1918", "En 1939", "En 1945", "En 1949"], "En 1945"),
-    new Question("Quel est le pays le plus peuplé du monde (compte plus de 1.350.000.000 d'habitants) ? ", ["la Chine", "la Russie", "Usa", "l'Inde"], "(la Chine)"),
-    new Question("Quelle est l'oeuvre littéraire la plus célèbre de Antoine de Saint-Exupéry ? ", ["L'Aviateur", "Terre des hommes ", "Le petit prince", "Lettre à un otage"], "(Le petit prince)"),
-    new Question("Où a été inventé le volley ?  ", ["États-Unis", "France", "Danemark", "Japon"], "(États-Unis)"),
-    new Question("Quel est le premier film de Disney ?  ", ["Mickey", "Blanche-neige", "La Belle aux bois dormant", "Les 3 petits cochons"], "(Blanche-neige)"),
+    new Question("Quel est le pays le plus peuplé du monde (compte plus de 1.350.000.000 d'habitants) ? ", ["la Chine", "la Russie", "Usa", "l'Inde"], "la Chine"),
+    new Question("Quelle est l'oeuvre littéraire la plus célèbre de Antoine de Saint-Exupéry ? ", ["L'Aviateur", "Terre des hommes ", "Le petit prince", "Lettre à un otage"], "Le petit prince"),
+    new Question("Où a été inventé le volley ?  ", ["États-Unis", "France", "Danemark", "Japon"], "États-Unis"),
+    new Question("Quel est le premier film de Disney ?  ", ["Mickey", "Blanche-neige", "La Belle aux bois dormant", "Les 3 petits cochons"], "Blanche-neige"),
 ];
 
 class Quiz {
