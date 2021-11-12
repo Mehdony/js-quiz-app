@@ -96,3 +96,39 @@ let quiz = new Quiz(questions);
 quizApp();
 console.log(quiz);
 
+// const binarySearch = (array, thingToFind, start, end) => {
+//     let mid = Math.floor((start + end) / 2);
+//  if (array[mid] === thingToFind) {
+//  return true;
+//  }
+ 
+//  if (thingToFind < array[mid]) {
+//  // il faut rechercher dans la première moitié
+//  return binarySearch(array, thingToFind, start, mid - 1); // on utilise (mid - 1) car on sait que l'on n'a pas besoin de l'élément mid, il a déjà été vérifié !
+ 
+//  } else {
+ 
+//  // il faut rechercher dans la deuxième moitié
+//  return binarySearch(array, thingToFind, mid + 1, end);
+//  }
+//  }
+
+ const binarySearch = ([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 7, 1, 10) => {
+    let mid = Math.floor((1 + 10) / 2);
+ 
+ 
+    if (5 === 7) {
+ return true;
+ }
+ 
+ 
+ if (7 < 5) {
+ // il faut rechercher dans la première moitié
+ return binarySearch([5, 6, 7, 8, 9, 10], 7, 5 + 1, 10 ); // on utilise (mid - 1) car on sait que l'on n'a pas besoin de l'élément mid, il a déjà été vérifié !
+ 
+ } else {
+ 
+ // il faut rechercher dans la deuxième moitié
+ return binarySearch(array, thingToFind, mid + 1, end);
+ }
+ }
